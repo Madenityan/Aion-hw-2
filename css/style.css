@@ -61,6 +61,11 @@ button {
 	float: left;
 }
 
+.logo-first-section h1 {
+	display: inline-block;
+	text-indent: -999px;
+}
+
 .button-menu {
 	float:right;
 }
@@ -190,7 +195,8 @@ body * {
 }
 
 .recent-projects {
-	padding: 0px 560px;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .recent-projects h2 {
@@ -217,6 +223,7 @@ body * {
 .fourth-section {
 	padding-bottom: 200px;
 	margin: 0 130px;
+	margin-bottom: -500px;
 }
 
 .fourth-section h2 {
@@ -230,7 +237,7 @@ body * {
 
 .info {
 	position: relative;
-	bottom: 200px;
+	bottom: -320px;
 }
 
 .info li {
@@ -279,6 +286,7 @@ body * {
 
 .image-clients img {
 	padding-right: 100px;
+	vertical-align: middle;
 }
 
 .image-clients {
@@ -291,7 +299,8 @@ body * {
 	background-color: #ecf0f1;
 }
 .our-team {
-	margin: 0 300px;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .our-team h2 {
